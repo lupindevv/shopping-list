@@ -22,6 +22,8 @@ jobs:
       run: npm run test:unit
     - name: Dispaly softuni
       run: echo "softuni"
+    - name: Install playwright
+      run: npx playwright install
     - name: Run UI test
       run: npm run test:ui
     
